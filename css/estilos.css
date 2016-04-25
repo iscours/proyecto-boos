@@ -1,0 +1,68 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.header {
+  background-color: #2e8ece;
+}
+.header .nav .ul {
+  padding: 0;
+  margin: 0;
+  padding: 10px 0;
+}
+.header .nav .ul .list {
+  padding: 12.4px 5px;
+  display: inline;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+.header .nav .ul .list:hover {
+  background-color: #000;
+}
+.header .nav .ul .select {
+  background-color: #000;
+}
+.bgProfile {
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  height: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+.bgProfile .figure img {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+.section .miheader {
+  background-color: #c0392b;
+  padding: 1px;
+  margin: 11px 0;
+}
+.section .miheader .title {
+  color: #fff;
+}
+.section .miheader .title i,
+.section .miheader .title span {
+  font-size: 22px;
+  padding: 0 5px;
+  color: #fff;
+}
+.galeria .figure img {
+  width: 100%;
+}
+input,
+textarea,
+select {
+  margin: 5px 0;
+}
